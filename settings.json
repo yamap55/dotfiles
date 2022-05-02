@@ -1,0 +1,29 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true, // 括弧の対応を色付け
+  "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅
+  "editor.cursorSmoothCaretAnimation": true, // カーソルの点滅をアニメーション表示
+  "editor.cursorStyle": "block", // カーソルをブロック表示
+  "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true, // 合字を有効化
+  "editor.formatOnSave": true,
+  "editor.renderControlCharacters": true, // 制御文字表示
+  "editor.renderWhitespace": "all", // スペース表示
+  "editor.rulers": [80, 100], // 縦線
+  "editor.suggest.preview": true, // オートコンプリートのプレビューを表示
+  "editor.suggestSelection": "recentlyUsedByPrefix", // 入力時の補完候補選択
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "workbench.colorCustomizations": {
+    "[GitHub Dark]": {
+      "editor.findMatchBorder": "#FDFF0C",
+      "editor.findMatchBackground": "#ff0000",
+      "editor.findMatchHighlightBackground": "#ff0000"
+    }
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editor.enablePreview": false, // プレビューを表示しない
+  "workbench.editor.wrapTabs": true, // タブが多いときに折り返す
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile" // 新規ファイルを開く
+}
