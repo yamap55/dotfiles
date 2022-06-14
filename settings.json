@@ -13,6 +13,7 @@
   "editor.suggest.preview": true, // オートコンプリートのプレビューを表示
   "editor.suggestSelection": "recentlyUsedByPrefix", // 入力時の補完候補選択
   "files.eol": "\n",
+  "files.insertFinalNewline": true, // ファイル末尾に改行追加
   "git.autofetch": true,
   "workbench.colorCustomizations": {
     "[GitHub Dark]": {
