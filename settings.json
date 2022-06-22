@@ -22,9 +22,9 @@
       "editor.findMatchHighlightBackground": "#ff0000"
     }
   },
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "GitHub Dark", // 拡張機能が必要: GitHub.github-vscode-theme
   "workbench.editor.enablePreview": false, // プレビューを表示しない
   "workbench.editor.wrapTabs": true, // タブが多いときに折り返す
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "vscode-icons", // 拡張機能が必要: vscode-icons-team.vscode-icons
   "workbench.startupEditor": "newUntitledFile" // 新規ファイルを開く
 }
