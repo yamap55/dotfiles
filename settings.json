@@ -15,6 +15,7 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true, // ファイル末尾に改行追加
   "git.autofetch": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.colorCustomizations": {
     "[GitHub Dark]": {
       "editor.findMatchBorder": "#FDFF0C",
