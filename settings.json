@@ -4,6 +4,7 @@
   "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅
   "editor.cursorSmoothCaretAnimation": true, // カーソルの点滅をアニメーション表示
   "editor.cursorStyle": "block", // カーソルをブロック表示
+  "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
   "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true, // 合字を有効化
   "editor.formatOnSave": true,
