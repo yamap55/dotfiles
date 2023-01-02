@@ -4,6 +4,7 @@
   "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅
   "editor.cursorSmoothCaretAnimation": true, // カーソルの点滅をアニメーション表示
   "editor.cursorStyle": "block", // カーソルをブロック表示
+  "editor.detectIndentation": false, // インデントの自動検出を設定する
   "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
   "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true, // 合字を有効化
@@ -15,6 +16,10 @@
   "editor.suggest.preview": true, // オートコンプリートのプレビューを表示
   "editor.suggestSelection": "recentlyUsedByPrefix", // 入力時の補完候補選択
   "editor.unicodeHighlight.includeComments": true, // コメント内のUnicode文字を強調表示
+  "emmet.variables": {
+	  "lang": "ja", // => <html lang="ja">
+  },
+  "explorer.compactFolders": false, // 空フォルダがある場合、コンパクト形式で表示する
   "files.eol": "\n",
   "files.insertFinalNewline": true, // ファイル末尾に改行追加
   "git.autofetch": true,
