@@ -9,6 +9,7 @@ eamodio.gitlens
 GitHub.github-vscode-theme
 mosapride.zenkaku
 MS-CEINTL.vscode-language-pack-ja
+ms-vscode-remote.remote-containers
 streetsidesoftware.code-spell-checker
 usernamehw.errorlens
 vscode-icons-team.vscode-icons
