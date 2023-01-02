@@ -7,6 +7,7 @@
   "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
   "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true, // 合字を有効化
+  "editor.formatOnPaste": true, // ペースト時、コードを自動的に整形をする
   "editor.formatOnSave": true,
   "editor.renderControlCharacters": true, // 制御文字表示
   "editor.renderWhitespace": "all", // スペース表示
