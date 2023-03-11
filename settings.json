@@ -1,4 +1,17 @@
 {
+  "cSpell.ignoreWords": [
+    "yamap",
+  ], // 拡張機能が必要: streetsidesoftware.code-spell-checker
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "devcontainer.json",
+    "**/settings.json"
+  ], // 拡張機能が必要: streetsidesoftware.code-spell-checker
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true, // 括弧の対応を色付け
   "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅
