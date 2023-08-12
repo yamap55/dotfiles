@@ -15,7 +15,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true, // 括弧の対応を色付け
   "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅
-  "editor.cursorSmoothCaretAnimation": true, // カーソルの点滅をアニメーション表示
+  "editor.cursorSmoothCaretAnimation": "on", // カーソルの点滅をアニメーション表示
   "editor.cursorStyle": "block", // カーソルをブロック表示
   "editor.detectIndentation": false, // インデントの自動検出を設定する
   "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
