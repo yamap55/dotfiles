@@ -18,14 +18,15 @@
   "editor.cursorSmoothCaretAnimation": "on", // カーソルの点滅をアニメーション表示
   "editor.cursorStyle": "block", // カーソルをブロック表示
   "editor.detectIndentation": false, // インデントの自動検出を設定する
-  "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
   "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true, // 合字を有効化
   "editor.formatOnPaste": true, // ペースト時、コードを自動的に整形をする
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true, // GitHub Copilotの補完を有効
   "editor.renderControlCharacters": true, // 制御文字表示
   "editor.renderWhitespace": "all", // スペース表示
   "editor.rulers": [80, 100], // 縦線
+  "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
   "editor.suggest.preview": true, // オートコンプリートのプレビューを表示
   "editor.suggestSelection": "recentlyUsedByPrefix", // 入力時の補完候補選択
   "editor.unicodeHighlight.includeComments": true, // コメント内のUnicode文字を強調表示
@@ -36,6 +37,12 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true, // ファイル末尾に改行追加
   "git.autofetch": true,
+  "github.copilot.enable": { // GitHub Copilotの設定
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.colorCustomizations": {
     "[GitHub Dark]": {
