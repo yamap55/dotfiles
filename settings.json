@@ -1,6 +1,7 @@
 {
   "cSpell.ignoreWords": [
     "yamap",
+    "yamap55"
   ], // 拡張機能が必要: streetsidesoftware.code-spell-checker
   "cSpell.ignorePaths": [
     "package-lock.json",
