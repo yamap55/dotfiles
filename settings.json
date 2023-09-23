@@ -12,6 +12,19 @@
     "devcontainer.json",
     "**/settings.json"
   ], // 拡張機能が必要: streetsidesoftware.code-spell-checker
+  "dev.containers.defaultExtensions": [ // Dev Containerで自動でインストールする拡張機能
+    "bierner.markdown-preview-github-styles",
+    "eamodio.gitlens",
+    "GitHub.github-vscode-theme",
+    "mosapride.zenkaku",
+    "MS-CEINTL.vscode-language-pack-ja",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "vscode-icons-team.vscode-icons",
+    "yzhang.markdown-all-in-one",
+    "GitHub.copilot",
+    "GitHub.copilot-chat"
+  ],
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true, // 括弧の対応を色付け
   "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅
