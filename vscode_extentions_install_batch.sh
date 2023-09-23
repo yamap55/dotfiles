@@ -14,6 +14,8 @@ streetsidesoftware.code-spell-checker
 usernamehw.errorlens
 vscode-icons-team.vscode-icons
 yzhang.markdown-all-in-one
+GitHub.copilot
+GitHub.copilot-chat
 )
  
 for var in ${pkglist[@]}
