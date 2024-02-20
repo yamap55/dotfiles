@@ -51,6 +51,7 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true, // ファイル末尾に改行追加
   "git.autofetch": true,
+  "github.copilot.chat.localeOverride": "ja", // GitHub Copilotの言語設定
   "github.copilot.enable": { // GitHub Copilotの設定
     "*": true,
     "yaml": false,
