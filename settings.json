@@ -58,6 +58,7 @@
     "plaintext": false,
     "markdown": true
   },
+  "jupyter.notebookFileRoot": "${workspaceFolder}", // Jupyter NotebookのRootディレクトリをWorkSpaceのRootにする
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.colorCustomizations": {
     "[GitHub Dark]": {
