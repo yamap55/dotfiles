@@ -64,7 +64,7 @@
     "[GitHub Dark]": {
       "editor.findMatchBorder": "#FDFF0C",
       "editor.findMatchBackground": "#ff0000",
-      "editor.findMatchHighlightBackground": "#ff0000"
+      "editor.findMatchHighlightBackground": "#ff000080"
     }
   },
   "workbench.colorTheme": "GitHub Dark", // 拡張機能が必要: GitHub.github-vscode-theme
