@@ -38,6 +38,7 @@
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true, // GitHub Copilotの補完を有効
   "editor.renderControlCharacters": true, // 制御文字表示
+  "editor.renderLineHighlight": "all", // 行番号もハイライト
   "editor.renderWhitespace": "all", // スペース表示
   "editor.rulers": [80, 100], // 縦線
   "editor.stickyScroll.enabled": true, // スクロール中にエディターの上部に入れ子になった現在のスコープを表示
@@ -71,5 +72,6 @@
   "workbench.editor.enablePreview": false, // プレビューを表示しない
   "workbench.editor.wrapTabs": true, // タブが多いときに折り返す
   "workbench.iconTheme": "vscode-icons", // 拡張機能が必要: vscode-icons-team.vscode-icons
-  "workbench.startupEditor": "newUntitledFile" // 新規ファイルを開く
+  "workbench.startupEditor": "newUntitledFile", // 新規ファイルを開く
+  "workbench.tree.indent": 24 // エクスプローラーのインデント
 }
