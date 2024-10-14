@@ -45,7 +45,7 @@
   "editor.suggestSelection": "recentlyUsedByPrefix", // 入力時の補完候補選択
   "editor.unicodeHighlight.includeComments": true, // コメント内のUnicode文字を強調表示
   "emmet.variables": {
-	  "lang": "ja", // => <html lang="ja">
+	  "lang": "ja" // => <html lang="ja">
   },
   "explorer.compactFolders": false, // 空フォルダがある場合、コンパクト形式で表示する
   "files.eol": "\n",
