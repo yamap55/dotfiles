@@ -1,4 +1,5 @@
 {
+  "chat.detectParticipant.enabled": true, // Chatビューで会話の参加者を自動検出する機能を有効にします。
   "cSpell.ignoreWords": [
     "yamap",
     "yamap55"
