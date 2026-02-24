@@ -31,8 +31,6 @@
       "Bash(which *)",
       "Bash(echo *)",
       "Bash(cat *)",
-      "Bash(head *)",
-      "Bash(tail *)",
       "Bash(gh pr view *)",
       "Bash(gh pr list *)",
       "Bash(gh pr diff *)",
