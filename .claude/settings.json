@@ -1,4 +1,5 @@
 {
+  "model": "opus",
   "cleanupPeriodDays": 9999,
   "statusLine": {
     "type": "command",
