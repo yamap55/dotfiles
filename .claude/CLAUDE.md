@@ -39,3 +39,6 @@
 - コミットメッセージは Conventional Commits に従う（chore / fix / feat 等の使い分けを重視） 
 - コミットメッセージは詳細かつ包括的に書く（何を・なぜ変更したかが伝わるように）
 - git の歴史改変は絶対に行わない（rebase, push --force, reset --hard, commit --amend 等）
+
+# コマンド出力
+- 長いコマンドを提示する際は、バックスラッシュ `\` で明示的に行継続する
