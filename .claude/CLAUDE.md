@@ -43,7 +43,12 @@
 # GitHub Issue・PR
 - 以下を行う際は、本文末尾にセッション復帰コマンドを記載する（後で投稿内容と作業セッションを紐づけて復帰するため）
   - Issue の作成 / Issue へのコメント投稿 / PR の作成
-  - 書式: `🔁 Resume session: \`claude -r <CLAUDE_CODE_SESSION_ID>\``
+  - 書式（下記をそのまま記載。バッククォートはエスケープしない）:
+
+    ```
+    🔁 Resume session: `claude -r <CLAUDE_CODE_SESSION_ID>`
+    ```
+
   - ID は `printenv CLAUDE_CODE_SESSION_ID` の値に置換する
 
 # コマンド出力
