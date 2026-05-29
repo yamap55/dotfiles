@@ -40,5 +40,16 @@
 - コミットメッセージは詳細かつ包括的に書く（何を・なぜ変更したかが伝わるように）
 - git の歴史改変は絶対に行わない（rebase, push --force, reset --hard, commit --amend 等）
 
+# GitHub Issue・PR
+- 以下を行う際は、本文末尾にセッション復帰コマンドを記載する（後で投稿内容と作業セッションを紐づけて復帰するため）
+  - Issue の作成 / Issue へのコメント投稿 / PR の作成
+  - 書式（下記をそのまま記載。バッククォートはエスケープしない）:
+
+    ```
+    🔁 Resume session: `claude -r <CLAUDE_CODE_SESSION_ID>`
+    ```
+
+  - ID は `printenv CLAUDE_CODE_SESSION_ID` の値に置換する
+
 # コマンド出力
 - 長いコマンドを提示する際は、バックスラッシュ `\` で明示的に行継続する
