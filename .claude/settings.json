@@ -1,6 +1,7 @@
 {
   "cleanupPeriodDays": 9999,
   "permissions": {
+    "defaultMode": "auto",
     "allow": [
       "Bash(npm run *)",
       "Bash(npm install *)",
