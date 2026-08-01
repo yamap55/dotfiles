@@ -1,7 +1,6 @@
 {
   "cleanupPeriodDays": 9999,
   "permissions": {
-    "defaultMode": "auto",
     "allow": [
       "Bash(npm run *)",
       "Bash(npm install *)",
@@ -49,24 +48,43 @@
     ],
     "deny": [
       "Bash(git push --force*)",
+      "Bash(git push -f*)",
       "Bash(git reset --hard*)",
       "Bash(git rebase*)",
       "Bash(git commit --amend*)",
       "Bash(rm -rf *)",
+      "Bash(rm -fr *)",
+      "Bash(rm -r -f *)",
+      "Bash(rm -f -r *)",
+      "Bash(rm --recursive *)",
+      "Bash(rm --force *)",
       "Bash(cat .env*)",
       "Bash(git restore *)",
       "Bash(git clean *)",
       "Edit(.env)",
       "Edit(.env.*)",
       "Read(.env)",
-      "Read(.env.*)"
+      "Read(.env.*)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/credentials)",
+      "Read(~/.gnupg/**)"
+    ],
+    "defaultMode": "auto"
+  },
+  "autoMode": {
+    "hard_deny": [
+      "$defaults",
+      "Never rewrite git history in any form: no git rebase, git push --force / -f / --force-with-lease, git reset --hard, or git commit --amend",
+      "Never read, write, or commit .env files or any file containing secrets, API keys, or credentials",
+      "Never delete directories recursively with force (rm -rf and any equivalent spelling)"
     ]
   },
+  "effortLevel": "high",
   "model": "opus",
   "statusLine": {
     "type": "command",
     "command": "bash /home/yamap/.claude/statusline-command.sh"
   },
   "language": "japanese",
-  "tui": "fullscreen"
+  "tui": "default"
 }
