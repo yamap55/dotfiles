@@ -2,9 +2,7 @@
   "cleanupPeriodDays": 9999,
   "permissions": {
     "allow": [
-      "Bash(npm run *)",
       "Bash(npm install *)",
-      "Bash(npx *)",
       "Bash(git status)",
       "Bash(git diff *)",
       "Bash(git log *)",
