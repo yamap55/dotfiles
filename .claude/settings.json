@@ -84,5 +84,6 @@
     "command": "bash /home/yamap/.claude/statusline-command.sh"
   },
   "language": "japanese",
+  "outputStyle": "Concise",
   "tui": "default"
 }
