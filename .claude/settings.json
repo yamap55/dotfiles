@@ -81,7 +81,8 @@
   "model": "opus",
   "statusLine": {
     "type": "command",
-    "command": "bash /home/yamap/.claude/statusline-command.sh"
+    "command": "bash /home/yamap/.claude/statusline-command.sh",
+    "refreshInterval": 10
   },
   "language": "japanese",
   "outputStyle": "Concise",
