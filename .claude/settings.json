@@ -85,5 +85,5 @@
   },
   "language": "japanese",
   "outputStyle": "Concise",
-  "tui": "default"
+  "tui": "fullscreen"
 }
